@@ -46,5 +46,40 @@ body {
   display: flex;
 }
 
+.divcontainer {
+  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;  
+  justify-content: space-around;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding: 1rem;
+  background: transparent 90%;
+  background: rgba(71, 66, 66, 0.877);
+
+}
+
+.recipe-container{
+  background: url(./HPic/e92.jpg);
+  padding-left: 3rem;
+  padding-right: 3rem; 
+}
+
+.recipe {
+  display: flex;
+  flex-wrap: wrap;
+  border: px solid red;
+  justify-content: center;
+  align-items: center;
+  width: 40rem;
+  max-height: 20rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 5px;
+  min-height: 15rem;
+  background: rgba(155, 3, 41, 0.712);  
+
+}
 
 
