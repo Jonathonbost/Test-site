@@ -76,8 +76,10 @@ body {
   background: rgba(155, 3, 41, 0.712); 
   padding: 0;
   border-radius: 10px;
-  align-items: center;
+  align-items: top;
+  border: 1px solid purple;
 }
+
 
 .food {
   display: flex;
@@ -93,10 +95,22 @@ body {
   max-width: 150px;
   max-height: 150px;
   background-size: cover;
-
+  border: 1px solid yellow;
 }
 
 img {
   width: 100%;
   height: auto;
+  border: 1px solid pink;
+}
+
+
+.paracont {
+  border: 1px solid blue;
+  margin-left: 1.5rem;
+  width: 70%;
+  height: 100px;
+  max-width: 50;
+  max-height: 100px;
+  margin-top: 5px;
 }
