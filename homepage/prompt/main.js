@@ -24,7 +24,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   loginForm.addEventListener("submit", e => {
     e.preventDefault();
-
     setFormMessage(loginForm, "error", "invalid username or password");
   })
 });
