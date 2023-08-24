@@ -13,64 +13,72 @@ body {
 
 .banner {
   display: flex;
-  background: lightblue;
+  background: white;
   align-items: center;
   justify-content: space-between;
   background-size: cover;
   height: 100%;
-  padding: 10px;
+  padding-right: max(2rem,calc(50% - 38.125rem));
+  padding-left: max(2rem,calc(50% - 38.125rem));
+  box-shadow:0px 20px;
 }
 
-.right-banner ul {
+.right-banner {
   display: flex;
   flex-direction: row;
   text-decoration: none;
   list-style-type: none;
-  justify-content: flex-end;
+  justify-content: space-between;
   gap: 1rem;
   align-items: center;
+  max-width: 90100px;
+  height: 150px;
+  width: 100%;  
+
 }
 
-.left-banner input {
+.right-banner ul {
+  display: flex;
+  gap: max(10px);
+}
+
+.left-banner {
   list-style-type: none;
-  width: 6rem;
+  width: 100%;
   font-size: 12px;
   min-height: 1.3rem;
   align-items: center;
+  display: flex ;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 700rem;
 }
 
 
 .divcontainer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
   padding-top: 1rem;
-  padding-right: 1rem;
-  padding-left: 1rem;
-  padding: 1rem;
-  background: rgba(71, 66, 66, 0.877);
-
+  background: white;
 }
 
 .recipe-container{
-  background: url(./HPic/e92.jpg);
-  padding-left: 3rem;
-  padding-right: 3rem; 
+  background: white;
 }
 
 .recipe {
   display: flex;
   flex-wrap: wrap;
-  width: 250px;
+  width: 350px;
   max-height: auto;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  margin-right: 5px;
   min-height: 8rem;
-  background: rgba(204, 2, 53, 0.767); 
+  background: whitesmoke ;
   padding: 0;
   border-radius: 10px;
   align-items: top;
+  border-top: 10px solid black;
 }
 
 
@@ -85,9 +93,13 @@ body {
   border-bottom-right-radius: 3px;
   width: 100%;
   height: 400px;
-  max-width: 250px;
+  max-width: 400px;
   max-height: 250px;
   background-size: cover;
+}
+
+.recipe img {
+  max-width: 400px;
 }
 
 img {
@@ -110,14 +122,11 @@ img {
 
 p {
   font-size: 16px;
-  margin: 5px;
+  margin: 10px;
   display: flex;
   align-items: bottom;
 }
 
-.container {
-  padding: 2rem;
-}
 
 .slider-wrapper {
   position: relative;
@@ -173,4 +182,65 @@ body {
 
 .slider::-webkit-scrollbar {
   display: none;
+}
+
+.divcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: none;
+  gap: 2rem;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.recipe-container {
+  padding-right: max(2rem,calc(50% - 38.125rem));
+  padding-left: max(2rem,calc(50% - 38.125rem));
+}
+
+.intro {
+
+  min-height: 50px;
+  background: whitesmoke;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+}
+
+.intro p, .intro input {
+  max-width: 300px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.intro input {
+  height: 50px;
+  max-height: 100px;
+  margin-top: 0px;
+  font-size: 16px;
+  display: flex;
+  max-width: 300px;
+  min-width: none;
+  width: auto;
+}
+
+.intro p {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  display: flex;
+}
+
+input {
+  display: flex;
+}
+
+.intro {
+  padding-right: max(2rem,calc(50% - 38.125rem));
+  padding-left: max(2rem,calc(50% - 38.125rem));
 }
