@@ -58,6 +58,9 @@ body {
   color: black;
 }
 
+.recipe a::before {
+  color: black;
+}
 .divcontainer {
   display: flex;
   flex-wrap: wrap;
