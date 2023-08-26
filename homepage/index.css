@@ -483,3 +483,9 @@ a {
 .foot {
   gap: max(30px)
 }
+
+
+
+body {
+  font-family: 'sans', Courier, monospace;
+}

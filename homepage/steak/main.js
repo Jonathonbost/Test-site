@@ -18,5 +18,6 @@ function next(){
 
 function setImg(){
 	return slider_img.setAttribute('src', "images/"+images[i]);
-	
 }
+
+console.log(hi);
