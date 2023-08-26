@@ -50,13 +50,22 @@ body {
 	display: flex;
 }
 
-.return {
+.return a{
 	display: flex;
 	font-size: 25px;
 	justify-content: center;
 	justify-items: center;
 	align-items: center;
+  font-size: 39px;
+	color: white;
+}
 
+.return a::after {
+	color: white;
+}
+
+.return a::before {
+	color: white;
 }
 
 .main {
@@ -69,6 +78,9 @@ body {
 	display: flex;
 	height: auto;
 	margin-right: 900px;
+	flex-direction: column;
+	height: 900px;
 }
+
 
 
