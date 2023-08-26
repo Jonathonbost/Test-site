@@ -31,7 +31,6 @@ body {
   justify-content: space-between;
   gap: 1rem;
   align-items: center;
- 
   height: 150px;
   width: 100%;  
 
@@ -84,10 +83,7 @@ body {
   padding: 0;
   border-radius: 10px;
   align-items: top; 
-
-
 }
-
 
 .food {
   display: flex;
@@ -159,9 +155,6 @@ p {
   align-items: center;
   justify-items: center;
 }
-
-
-
 
 .slider img {
   flex: 1 0 100%;
@@ -237,7 +230,6 @@ body {
   width: 300px;
 }
 .intro {
-
   min-height: 50px;
   background: whitesmoke;
   display: flex;
@@ -284,7 +276,7 @@ p.search-text{
 
 .footer {
   height: 500px;
-  background: lightgray;
+  background: darkgrey;
   display: flex;
   align-items: center;
   padding-right: max(2rem,calc(50% - 38.125rem));
@@ -459,4 +451,35 @@ p.par {
 
 html {
   max-zoom: 100%;
+}
+
+a {
+  color: black;
+  cursor:default;
+}
+
+.recipe button {
+  cursor: pointer;
+}
+
+.footer {
+  max-height: 900px;
+  height: 100%;
+}
+
+.icons {
+  gap: 5px
+}
+
+.foot p {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  border-bottom: 3px solid;
+  margin: 10px;
+}
+
+.foot {
+  gap: max(30px)
 }

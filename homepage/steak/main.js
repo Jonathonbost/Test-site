@@ -1,7 +1,7 @@
 // 'js/mian.js'
 
 var slider_img = document.querySelector('.slider-img');
-var images = ['eee.jpg', 'www.jpg', 'ttt.jpg', 'qqq1).jpeg', 'imrs.webp'];
+var images = ['fff.jpg', 'eee.jpg', 'ttt.jpg', 'imrs.webp'];
 var i = 0;
 
 function prev(){
