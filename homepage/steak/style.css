@@ -66,6 +66,7 @@ body {
 
 .return a::before {
 	color: white;
+	font-size: 24px;
 }
 
 .main {
