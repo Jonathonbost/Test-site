@@ -154,6 +154,15 @@ p {
   box-shadow: 0 1.5rem 3rem -0.75rem hsla(0,0%,0%, 0.25);
 }
 
+.recipe {
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+
+
+
 .slider img {
   flex: 1 0 100%;
   scroll-snap-align: start;
@@ -433,4 +442,17 @@ p.par {
 .fa-rss {
   background: #ff6600;
   color: white;
+}
+
+.divcontainer {
+  display: flex ;
+  margin: 10px;
+}
+
+.dude {
+  padding: 10px;
+}
+
+.right-banner {
+  padding: 10px;
 }
