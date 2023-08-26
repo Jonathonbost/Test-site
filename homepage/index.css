@@ -446,13 +446,17 @@ p.par {
 
 .divcontainer {
   display: flex ;
-  margin: 10px;
+  margin: 20px;
 }
 
 .dude {
-  padding: 10px;
+  padding: 20px;
 }
 
 .right-banner {
-  padding: 10px;
+  padding: 20px;
+}
+
+html {
+  max-zoom: 100%;
 }
