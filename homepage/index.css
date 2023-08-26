@@ -31,7 +31,7 @@ body {
   justify-content: space-between;
   gap: 1rem;
   align-items: center;
-  max-width: 90100px;
+ 
   height: 150px;
   width: 100%;  
 
@@ -56,7 +56,7 @@ body {
 
 .recipe a:visited {
   color: black;
-}
+} 
 
 .recipe a::before {
   color: black;
@@ -83,10 +83,8 @@ body {
   background: whitesmoke ;
   padding: 0;
   border-radius: 10px;
-  align-items: top;
-  border-top: 10px solid black;  
-  text-decoration: none;
-  list-style-type: none;
+  align-items: top; 
+
 
 }
 
@@ -166,7 +164,7 @@ p {
   display: flex;
   column-gap: 1rem ;
   position: absolute;
-  bottom: 1.25rem;
+  bottom: 1rem;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
@@ -213,6 +211,22 @@ body {
   padding-left: max(2rem,calc(50% - 38.125rem));
 }
 
+
+.paracont {
+  margin: 10px;
+}
+
+.paracont ul{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 2px;
+  font-size: 13.3px;
+}
+
+.recipe {
+  width: 300px;
+}
 .intro {
 
   min-height: 50px;
@@ -273,9 +287,10 @@ p.search-text{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   height: 100%;
+  gap: max(150px)
 }
 
 .foot p  {
@@ -283,7 +298,13 @@ p.search-text{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 70px;
+  font-size: 24px;
+}
+
+p.par {
+  justify-content: center;
+  align-items: center;
 }
 
 .icons {

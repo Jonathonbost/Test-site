@@ -1,0 +1,47 @@
+/*css/style.css */
+
+.slider{
+	width:100%;
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	flex-direction: column;
+	max-height: 100px;
+	margin: 0;
+}
+
+.img-box img{
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	width: 220vh;	
+	max-height: 500px;
+	object-fit: cover;
+	aspect-ratio: 16 / 9;
+	align-items: center;
+	margin: 0;
+}
+
+body {
+	margin: 0;
+}
+
+.own button {
+	width: 900px;
+	height: 506px;
+	margin-top: -50;
+	outline: none;
+	border:none;
+	outline:none;
+	cursor: pointer;
+}
+
+.own {
+	display: flex;
+	justify-content: space-between;
+	margin-top: -101px;
+}
+
+.btn {
+	background: none;
+}
