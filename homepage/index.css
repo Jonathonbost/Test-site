@@ -485,7 +485,8 @@ a {
 }
 
 .banner {
-  max-height: 100px;
+  max-height: 90px;
+  height: 100%;
 }
 
 .left-banner h1 {
