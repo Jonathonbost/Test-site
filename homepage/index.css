@@ -488,6 +488,10 @@ a {
   max-height: 100px;
 }
 
+.left-banner h1 {
+  font-size: 16px;
+}
+
 body {
   font-family: 'sans', Courier, monospace;
 }
