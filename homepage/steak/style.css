@@ -19,8 +19,6 @@
 	align-items: center;
 	margin-top: -20px;
 	display: flex;
-
-
 }
 
 body {
@@ -80,8 +78,11 @@ body {
 	height: auto;
 	margin-right: 900px;
 	flex-direction: column;
-	height: 900px;
+	height: 1200px;
 }
 
-
-
+h1 {
+	display: flex;
+	font-size: 90px;
+	color: white;
+}
