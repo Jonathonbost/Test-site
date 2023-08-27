@@ -1,8 +1,8 @@
 // 'js/mian.js'
 
-var slider_img = document.querySelector('.slider-img');
-var images = [ 'eee.jpg', 'ttt.jpg', 'imrs.webp'];
-var i = 0;
+let slider_img = document.querySelector('.slider-img');
+let images = [ 'eee.jpg', 'ttt.jpg', 'imrs.webp'];
+let i = 0;
 
 function prev(){
 	if(i <= 0) i = images.length;	
@@ -20,4 +20,11 @@ function setImg(){
 	return slider_img.setAttribute('src', "images/"+images[i]);
 }
 
-console.log(ok);
+let checkBox = document.querySelector('.hi');
+
+
+document.querySelector(".hi").addEventListener("click", e => {
+	e.preventDefault();
+	hi.classList.remove("hi");
+	hi.classList.add("hi");
+}); // not working yet 

@@ -5,7 +5,6 @@ body {
   --color-error: #c3cc3c;
   --color-success: green;
   --border-radius: 4px ;
-
   margin: 0;
   height: 100vh;
   display: flex;
@@ -15,6 +14,7 @@ body {
   background: url(./images/large-kitchen-393617_640.jpg);
   background-size: cover;
 }
+
 
 .content {
   width: 400px;
