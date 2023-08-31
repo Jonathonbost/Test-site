@@ -523,3 +523,7 @@ html {
 .card-title h1 {
   font-size: 30px;
 }
+
+.fixedLink {
+  cursor: pointer;
+}
