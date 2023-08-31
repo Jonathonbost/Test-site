@@ -488,6 +488,7 @@ body {
   max-height: fit-content;
   align-items: center;
   align-content: center;
+  background-color: #e2e2e2;
 }
 
 .dop {
