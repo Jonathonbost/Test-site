@@ -9,48 +9,40 @@
 body {
   display: flex;
   flex-direction: column;
+
 }
 
-.banner {
-  display: flex;
-  background: white;
-  align-items: center;
-  justify-content: space-between;
-  background-size: cover;
-  height: 100%;
-  padding-right: max(2rem,calc(50% - 38.125rem));
-  padding-left: max(2rem,calc(50% - 38.125rem));
-  box-shadow:0px 20px;
-}
 
 .right-banner {
+  position: fixed;
+  background: #125688;
   display: flex;
-  flex-direction: row;
-  text-decoration: none;
-  list-style-type: none;
+  width: 100%;
+  justify-content: center;
+  max-height: 20px;
+  max-width: -webkit-fill-available;
   justify-content: space-between;
-  gap: 1rem;
-  align-items: center;
-  height: 150px;
-  width: 100%;  
+}
 
+.right-banner h1 {
+  display: flex;
+  font-size: max(2vh);
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  
 }
 
 .right-banner ul {
   display: flex;
-  gap: max(10px);
+  
 }
 
-.left-banner {
-  list-style-type: none;
-  width: 100%;
-  font-size: 12px;
-  min-height: 1.3rem;
-  align-items: center;
-  display: flex ;
-  flex-direction: row;
-  justify-content: space-between;
-  max-width: 700rem;
+.bannerList {
+  display: flex;
+  gap: max(1rem);
+  font-size: 10px;
+  padding: 20px;
 }
 
 .recipe a:visited {
@@ -445,9 +437,6 @@ p.par {
   padding: 20px;
 }
 
-.right-banner {
-  padding: 20px;
-}
 
 html {
   max-zoom: 100%;
@@ -484,15 +473,35 @@ a {
   gap: max(30px)
 }
 
-.banner {
-  max-height: 90px;
-  height: 100%;
-}
-
-.left-banner h1 {
-  font-size: 16px;
-}
-
 body {
   font-family: 'sans', Courier, monospace;
+  scroll-behavior: smooth;
+}
+
+.intro {
+  margin-top: 85px;
+}
+
+.right-banner {
+  padding-right: max(2rem,calc(50% - 38.125rem));
+  padding-left: max(2rem,calc(50% - 38.125rem));
+  max-height: fit-content;
+  align-items: center;
+  align-content: center;
+}
+
+.dop {
+  background-color: none;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  background: none;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
