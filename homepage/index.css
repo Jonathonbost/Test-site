@@ -513,17 +513,38 @@ body {
   } 
 
   @media screen and (min-width: 1000px) {
-    body { font-size: 25px; }
+    body { font-size: 20px; }
   }
 
 html {
   scroll-behavior: smooth;
 }
 
-.card-title h1 {
+.paracont h1 {
   font-size: 30px;
+  font-weight: normal;
 }
 
 .fixedLink {
   cursor: pointer;
+}
+
+.search-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.recipe-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.recipe-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  min-width: 200px;
+  text-align: center;
 }
